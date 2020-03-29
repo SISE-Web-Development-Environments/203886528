@@ -2,46 +2,45 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="lightbox.min.css"/>
+<script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
 </head>
-<body background="pearl.jpg">
-    <div id="menu">
-      <nav class="nav">
-        <ul class="ul">
-          <li>
-            <a class="active" href="#about">About Me</a>
-          </li>
-          <li>
-            <a href="#photos">My Photos</a>
-          </li>
-          <li>
-            <a href="#playlist">My Playlist</a>
-          </li>
-          <li>
-            <a href="#like">Like</a>
-          </li>
-          <li>
-            <a href="#qrcoder">QR code</a>
-          </li>
-          <li>
-            <a href="#spa">Q&A</a>
-          </li>
-          <li>
-            <a href="#contact">Contact Me</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-          
-    <section id="about" class="section">
-      <br/>
-      <br/>
-        <h1>
-          <u style="font-size: xx-large; font-family: Arial; color: white;">
-          <b>My Story...</b>
-          </u>
-        </h1>
-        <p>
-          Captain Jack Sparrow is the protagonist of the series, portrayed by Johnny Depp.First introduced in the film Pirates of the Caribbean: The Curse of the Black Pearl (2003), he later appears in the sequels Dead Man's Chest (2006), At World's End (2007), On Stranger Tides (2011), and Dead Men Tell No Tales (2017).Depp based his characterization on The Rolling Stones guitarist Keith Richards and cartoon character Pepé Le Pew. He insists on being introduced as "Captain" Jack Sparrow.
+<body>
+<div id="menu">
+  <nav class="nav">
+    <ul class="ul">
+      <li>
+        <a href="#about">About Me</a>
+      </li>
+      <li>
+        <a href="#photos">My Photos</a>
+      </li>
+      <li>
+        <a href="#playlist">My Playlist</a>
+      </li>
+      <li>
+        <a href="#like">Like</a>
+      </li>
+      <li>
+        <a href="#qrcoder">QR code</a>
+      </li>
+      <li>
+        <a href="#qa">Q&A</a>
+      </li>
+      <li>
+        <a href="#contact">Contact Me</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+<div id="about" class="section">
+  <h1>
+    The story of Captain Jack Sparrow
+  </h1>
+  <div class="content">
+    <p class="parag">
+      Captain Jack Sparrow is the protagonist of the series, portrayed by Johnny Depp.First introduced in the film Pirates of the Caribbean: The Curse of the Black Pearl (2003), he later appears in the sequels Dead Man's Chest (2006), At World's End (2007), On Stranger Tides (2011), and Dead Men Tell No Tales (2017).Depp based his characterization on The Rolling Stones guitarist Keith Richards and cartoon character Pepé Le Pew. He insists on being introduced as "Captain" Jack Sparrow.
           <br/>
           <br/>
           In the first film, Sparrow is the former captain of the Black Pearl. After a mutiny by his first mate Hector Barbossa, he is left to die on an island. Though Barbossa and his crew are immortal as a result of a curse, Sparrow craves revenge. With the help of Will Turner and Elizabeth Swann, he lifts the curse and kills Barbossa.
@@ -58,137 +57,129 @@
           <br/>
           In the fifth film, Jack is suffering a series of bad luck with the Pearl still trapped in a bottle due to Blackbeard's actions, to the point that he trades his compass for a drink of rum. This results in the release of Armando Salazar, an undead Spanish pirate hunter whose death in a confrontation with Jack established Jack's own reputation. When faced with execution, Jack is rescued by Henry Turner- the son of Will and Elizabeth- who seeks Jack's help in finding the Trident of Poseidon, which gives its wielder control of the seas. At the film's conclusion, the destruction of the Trident breaks all curses on the sea, restoring Salazar to life in time for him to drown while fighting Jack while Jack reclaims the restored Pearl and Will is able to return to Elizabeth now that the Flying Dutchman no longer needs a captain.
           <br/>
-        </p>
-      </section>
-      
-      <section id="photos" class="section">
-      <br/>
-      <h2>
-        <u style="font-size: xx-large; font-family: Arial; color: white;">
-          <b>My Photos</b>
-        </u>
-      </h2>
-      <div class="gallery" >
-        <div class="img-box active">
-          <img src="jack6.jpg">
-        </div>
-        <div class="img-box">
-          <img src="jack2.jpg">
-        </div>
-        <div class="img-box">
-          <img src="jack8.jpg">
-        </div>
-        <div class="img-box">
-          <img src="jack4.jpg">
-        </div>
-        <div class="img-box">
-          <img src="jack5.jpg">
-        </div>
-      </div>
-      <br/>
-      </section>
+    </p>
+  </div>
+</div>
 
-    <section id="playlist" class="section">
-    <h2>
-      <u style="font-size: xx-large; font-family: Arial; color: white;">
-        <b>My Playlist</b>
-      </u>
-    </h2>
+<div id="photos" class="section">
+ <h2>
+  My Photos
+ </h2> 
+ <div class="gallery">
+    <a href="jack2.jpg" data-lightbox="gallery"><img src="jack2.jpg"></a>
+    <a href="jack4.jpg" data-lightbox="gallery"><img src="jack4.jpg"></a>
+    <a href="jack5.jpg" data-lightbox="gallery"><img src="jack5.jpg"></a>
+    <a href="jack6.jpg" data-lightbox="gallery"><img src="jack6.jpg"></a>
+    <a href="jack8.jpg" data-lightbox="gallery"><img src="jack8.jpg"></a>
+
+ </div>
+  
+</div>
+
+<div id="playlist" class="section">
+  <center>
+    <h3>
+    My Playlist
+  </h3>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/QFLeTga9CN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <br/>
-    <br/>
-    <br/>
-    </section>
+  </center>
+</div>
 
-    <section id="like" class="section">
-    <br/>
-    give me a like
-    <br/>
+<div id="like" class="section">
+  <h4>Gentelmen, You will always remember <br/> this day, as the day <br/> you LIKED Captain Jack Sparrow! </h4>
+  <center>
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>    <br/>
     <div class="fb-like" data-href="https://sise-web-development-environments.github.io/assignment1-GalBuzi/" data-width="400" data-layout="standard" data-action="like" data-size="large" data-share="true"></div>
-    <br/>
-    </section>
+  <br/></center>
+</div>
 
-    <section id="qrcoder" class="section">
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    scan my code
-    <br/>
-    <br/>
-    <br/>
-    </section>
+<div id="qrcoder" class="section">
+  <h5>Scan my code! Savvy?</h5>
+  <center>
+    <img src="qrcapture.JPG">
+    <br/></center>
+</div>
 
-    <section id="spa" class="section">
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    ans
-    <br/>
-    <br/>
-    <br/>
-    </section>
+<div id="qa" class="section">
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  ans
+  <br/>
+  <br/>
+  <br/>
+</div>
 
-    <section id="contact" class="section">
+<div id="contact" class="section">
+  <h5>
+    Contact Me Mate!
+  </h5>
+  <form action="mailto:galbuz@post.bgu.ac.il" method="POST" enctype="text/plain">
+    Name:
     <br/>
+    <input type="text" name="name">
     <br/>
+    Email:
     <br/>
+    <input type="text" name="mail">
     <br/>
+    Message
     <br/>
+    <textarea name="comments" rows="8" cols="45"></textarea>
     <br/>
+    You can copy a smiley from here and paste it in the message box
     <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    contact me
-    <br/>
-    <br/>
-    <br/>
-    </section>
+    <center>
+      <span style="font-size: 30px;">😀</span>
+      <span style="font-size: 30px;">😂</span>
+      <span style="font-size: 30px;">😋</span>
+      <span style="font-size: 30px;">😘</span>
+      <span style="font-size: 30px;">😷</span>
+      <span style="font-size: 30px;">😮</span>
+      <span style="font-size: 30px;">😧</span>
+      <span style="font-size: 30px;">😤</span>
+      <span style="font-size: 30px;">😝</span>
+      <span style="font-size: 30px;">😍</span>
+      <span style="font-size: 30px;">😎</span>
+      <br/>
+      <input type="submit" value="Send" class="btn"> 
+      <input type="reset" value="Reset" class="btn">
+    </center>
+    
+  </form>
+</div>
 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
-    <script type="text/javascript">
-    $(function(){
-      $("#nav a").click(function(e){
-        e.preventDefault();
-        $('html,body').scrollTo(this.hash,this.hash); 
-      });
-    });
-    </script>
-    <script type="text/javascript">
+<script type="text/javascript">
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+</script>
+<script type="text/javascript">
  $(document).scroll(function() {
     $('#menu').toggle($(this).scrollTop()>1000)
  });​
